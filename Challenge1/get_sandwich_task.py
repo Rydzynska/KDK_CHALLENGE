@@ -1,4 +1,9 @@
 def get_sandwich(text):
+    """
+    Search for a string between two other words.
+    bread: string that should be present twice
+    inside: string that is between two bread instances
+    """
     bread = 'chleb'
     is_bread = False
     inside = ''
